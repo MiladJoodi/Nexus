@@ -49,6 +49,10 @@ body {
   }
 }
 
+.cursorPointer{
+  cursor: pointer;
+}
+
 .bg-lightBlue{
   background-color: rgb(204 250 245);
 }
