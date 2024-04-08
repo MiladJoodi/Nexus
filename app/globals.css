@@ -33,11 +33,11 @@ body {
 
 
 /* Custom style */
-.active{
+.active {
   color: rgb(224 93 93);
   position: relative;
 
-  &:before{
+  &:before {
     content: "";
     width: 6px;
     height: 6px;
@@ -49,33 +49,43 @@ body {
   }
 }
 
-.cursorPointer{
+.cursorPointer {
   cursor: pointer;
 }
 
-.bg-lightBlue{
+.bg-lightBlue {
   background-color: rgb(204 250 245);
 }
-.bg-lightGreen{
-background-color: rgb(56 181 198);
+
+.bg-lightGreen {
+  background-color: rgb(56 181 198);
 }
-.bg-lightGreen2{
-background-color: rgb(161 163 37);
+
+.bg-lightGreen2 {
+  background-color: rgb(161 163 37);
 }
-.text-liver{
+
+.text-liver {
   color: rgb(224 93 93);
 }
-.bg-liver{
+
+.bg-liver {
   background-color: rgb(224 93 93);
 
 }
-.bg-pinkLight{
+
+.bg-pinkLight {
   background-color: rgb(255 236 236);
 }
 
-.iconStyles{
-  
+.iconStyles {
+
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+.slider_bg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(229, 255, 145, 0.5018382352941176) 48%, rgba(255, 255, 255, 1) 100%);
 }
 
 
@@ -104,12 +114,11 @@ body::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
   border-radius: 10px;
   cursor: pointer;
-  
+
 }
 
 @supports not selector(::-webkit-scrollbar) {
   body {
-    scrollbar-color: var(--sb-thumb-color)
-                     var(--sb-track-color);
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
   }
 }

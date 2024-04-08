@@ -30,7 +30,7 @@ type TeamProps = {
 
 const TeamCard = ({item}:{item: TeamProps | undefined}) => {
   return (
-    <div className="flex flex-col text-center gap-8">
+    <div className="flex flex-col text-center gap-8 border-b sm:border-none rounded-2xl py-2">
       <Image
         src={item?.image || "/placeholder.png"}
         placeholder={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}

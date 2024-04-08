@@ -26,7 +26,7 @@ const Team = () => {
     <div className="container mx-auto py-3 mt-16 sm:py-4 px-4 sm:px-6 lg:px-16 xl:px-32">
       <div className="flex flex-col gap-4">
         {/* title */}
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
           <h2 className="text-3xl">Meet our team</h2>
           <Link href="/" className="text-liver text-lg">
             View all
