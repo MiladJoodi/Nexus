@@ -52,8 +52,26 @@ body {
 .bg-lightBlue{
   background-color: rgb(204 250 245);
 }
+.bg-lightGreen{
+background-color: rgb(56 181 198);
+}
+.bg-lightGreen2{
+background-color: rgb(161 163 37);
+}
 .text-liver{
   color: rgb(224 93 93);
+}
+.bg-liver{
+  background-color: rgb(224 93 93);
+
+}
+.bg-pinkLight{
+  background-color: rgb(255 236 236);
+}
+
+.iconStyles{
+  
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
 

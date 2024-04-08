@@ -33,7 +33,7 @@ const Team = () => {
           </Link>
         </div>
         {/* cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 justify-items-center p-8 bg-red-200">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 justify-items-center py-2">
           {OurTeam.map((item)=>(
               <TeamCard item={item} key={item?.name} />
           ))}
