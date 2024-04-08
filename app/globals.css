@@ -76,3 +76,36 @@ background-color: rgb(161 163 37);
 
 
 /* "liver-color": "rgb(224 93 93)" */
+
+
+/* scroll */
+
+body {
+  --sb-track-color: #ececec;
+  --sb-thumb-color: #e05c5b;
+  --sb-size: 11px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
