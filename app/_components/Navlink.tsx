@@ -10,7 +10,7 @@ type NavlinkProps = {
 const Navlink = ({item}:{ item: NavlinkProps }) => {
 
     const pathname = usePathname();
-    console.log(pathname)
+    // console.log(pathname)
 
     return (
         <Link href={item.url} className={`p-4 ${pathname === item.url && 'active'}`}>{item.title}</Link>
