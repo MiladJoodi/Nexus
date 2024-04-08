@@ -85,7 +85,15 @@ body {
 
 .slider_bg {
   background: rgb(255, 255, 255);
-  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(229, 255, 145, 0.5018382352941176) 48%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(205, 231, 117, 0.502) 48%, rgba(255, 255, 255, 1) 100%);
+}
+.red_circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -11px;
+  left: 108px;
+outline: 10px solid #fff;
 }
 
 
