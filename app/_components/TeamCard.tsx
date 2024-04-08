@@ -11,7 +11,7 @@ const TeamCard = ({item}:{item: TeamProps | undefined}) => {
   return (
     <div className="flex flex-col text-center gap-8">
       <Image
-        src={item?.image || ""}
+        src={item?.image || "/placeholder.png"}
         width={390}
         height={480}
         alt="Picture of the author"
