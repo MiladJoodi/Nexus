@@ -23,12 +23,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     const autoplay = emblaApi?.plugins()?.autoplay;
     if (!autoplay) return;
 
-    const resetOrStop =
-      autoplay.options.stopOnInteraction === false
-        ? autoplay.reset
-        : autoplay.stop;
-
-    resetOrStop();
+ 
   }, []);
 
   const {
