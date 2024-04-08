@@ -23,7 +23,7 @@ const headerLinks = [
 const Header = () => {
   // { params }: { params: string }
   return (
-    <div className="bg-red-100 container mx-auto py-3 sm:py-4 px-4 sm:px-6 lg:px-32 flex flex-col sm:flex-row justify-between items-center gap-2">
+    <div className=" container mx-auto py-3 sm:py-4 px-4 sm:px-6 lg:px-32 flex flex-col sm:flex-row justify-between items-center gap-2">
       {/* logo */}
       <div>
         <Image
