@@ -11,7 +11,7 @@ const About = () => {
             <h1 className="text-4xl md:text-6xl font-semibold">
               Maximize your business with us
             </h1>
-            <p>
+            <p className="text-gray-500">
               Maximize your business with a variety of services and services
               from us.
             </p>
