@@ -81,6 +81,9 @@ body {
   background-color: #3c3c3c;
   border-top-right-radius: 50px;
 }
+.bg_yellow{
+  background-color: #fffccc;
+}
 
 .footer_title::after{
   content: "";

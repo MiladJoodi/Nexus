@@ -24,11 +24,11 @@ const weDo = [
 
 const WhatWeDo = () => {
   return (
-    <div className="container mx-auto py-3 mt-16 sm:py-4 px-4 sm:px-6 lg:px-16 xl:px-32">
+    <div className="container mx-auto py-3 mt-12 sm:py-4 lg:py-12 px-4 md:px-6 lg:px-16 xl:px-32">
       <div className="flex flex-col gap-6">
         <h2 className="text-3xl text-center">What we do</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 justify-items-center lg:p-14 p-2 py-24  lg:rounded-[75px] rounded-3xl text-center bg-pinkLight">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 justify-items-center lg:p-14 p-2 py-24 lg:py-32  lg:rounded-[75px] rounded-3xl text-center bg-pinkLight">
           {/* item */}
           {weDo.map((item)=>(
               <WhatWeDoItem item={item} key={item.title} />

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import About from "./_components/About";
+import About from "./_components/About/About";
 import Team from "./_components/Team";
 import WhatWeDo from "./_components/WhatWeDo";
 import Slider from "./_components/Slider/Slider";

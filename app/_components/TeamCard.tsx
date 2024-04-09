@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { shimmer, toBase64 } from "@/utils/shimmer";
 
-type TeamProps = {
+export type TeamProps = {
     image: string,
     name: string,
     desc: string,

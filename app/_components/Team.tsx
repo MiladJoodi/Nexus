@@ -34,7 +34,7 @@ const Team = () => {
         </div>
         {/* cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 justify-items-center py-2">
-          {OurTeam.map((item)=>(
+          {OurTeam.map((item,index)=>index<4 &&(
               <TeamCard item={item} key={item?.name} />
           ))}
         </div>
