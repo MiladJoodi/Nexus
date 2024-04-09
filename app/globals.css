@@ -77,6 +77,21 @@ body {
 .bg-pinkLight {
   background-color: rgb(255 236 236);
 }
+.bg-footer{
+  background-color: #3c3c3c;
+  border-top-right-radius: 50px;
+}
+
+.footer_title::after{
+  content: "";
+  height: 2px;
+  position: absolute;
+  background-color: #f5ab67;
+  bottom: -10px;
+  width: 50%;
+  left: 0;
+  /* border-bottom: 2px solid #f5ab67; */
+}
 
 .iconStyles {
 

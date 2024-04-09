@@ -34,12 +34,11 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   } = usePrevNextButtons(emblaApi, onNavButtonClick);
 
   return (
-    <section className="embla p-8 flex flex-col gap-6">
+    <section className="embla p-6 lg:p-8 flex flex-col gap-6">
       {/* slider header */}
-      <div className="flex justify-between">
-
-        <p className="text-3xl">What our clients are saying</p>
-        <div className="flex gap-4">
+      <div className="flex flex-col lg:flex-row justify-between">
+        <p className="text-2xl text-center lg:text-left">What our clients are saying</p>
+        <div className="hidden xl:flex gap-4">
           <button onClick={onPrevButtonClick} disabled={prevBtnDisabled} className="bg-liver flex justify-center items-center px-5 py-3 cursor-pointer">
             <Image
               src="/arrow.svg"
@@ -63,10 +62,10 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       {/* slider header */}
 
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container ">
+        <div className="embla__container">
           {slides.map((item: any, index: number) => (
             <div className="embla__slide p-5" key={index}>
-              <div className="h-[300px] bg-white p-10 flex flex-col rounded-xl gap-6 justify-between">
+              <div className="h-[300px] border bg-white p-10 flex flex-col rounded-xl gap-6 justify-between">
                 <p className="text-sm leading-6">{item?.desc}</p>
                 <div className="flex items-center gap-2">
                   <Image

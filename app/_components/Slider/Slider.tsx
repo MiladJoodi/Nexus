@@ -43,8 +43,8 @@ const clientComments = [
 
 const Slider = () => {
   return (
-    <div className="h-[550px] slider_bg  relative">
-        <span className="red_circle bg-liver absolute"></span>
+    <div className="h-[550px] slider_bg  relative mt-9">
+        <span className="red_circle bg-liver absolute hidden lg:block"></span>
 
       <EmblaCarousel slides={clientComments} options={OPTIONS} />
     </div>
