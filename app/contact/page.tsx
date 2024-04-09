@@ -1,9 +1,9 @@
-const Contact = () => {
+import Contact from "../_components/Contact/Contact";
+
+const ContactPage = () => {
     return (
-        <div>
-            Contact
-        </div>
+        <Contact />
     );
 }
 
-export default Contact;
+export default ContactPage;

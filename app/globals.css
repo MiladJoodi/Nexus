@@ -23,6 +23,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   min-width: 360px;
+  background-color: #fefefe;
 }
 
 @layer utilities {
@@ -71,7 +72,9 @@ body {
 
 .bg-liver {
   background-color: rgb(224 93 93);
-
+}
+.bg_contact{
+  background-color: #e5eeff;
 }
 
 .bg-pinkLight {
@@ -114,6 +117,12 @@ body {
 outline: 10px solid #fff;
 }
 
+.send_btn{
+  background-color: rgb(39 169 83);
+  padding: 8px 55px;
+  border-radius: 70px;
+  color: white;
+}
 
 /* "liver-color": "rgb(224 93 93)" */
 
