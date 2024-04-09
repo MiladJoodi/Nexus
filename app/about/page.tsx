@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <div className="container mx-auto py-3 mt-2 sm:py-4 lg:py-8 px-4 md:px-6 lg:px-16 xl:px-32">
 
-      <div className="relative flex flex-col gap-8 justify-items-center items-center xl:p-32 p-12 py-20 xl:py-52 lg:py-32 lg:rounded-[75px] rounded-[85px] text-center bg_yellow">
+      <div className="relative flex flex-col gap-8 justify-items-center items-center xl:p-32 p-12 py-20 xl:py-48 lg:py-32 lg:rounded-[75px] rounded-[85px] text-center bg_yellow">
         <h4 className="lg:text-5xl text-3xl font-semibold max-w-[400px]">
           Get to know more <span className="text-liver">about us</span>
         </h4>

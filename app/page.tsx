@@ -12,7 +12,6 @@ export default function Home() {
       <Team />
       <WhatWeDo />
       <Slider  />
-      <Footer />
     </>
   );
 }
