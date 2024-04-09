@@ -122,6 +122,7 @@ outline: 10px solid #fff;
   padding: 8px 55px;
   border-radius: 70px;
   color: white;
+  box-shadow: rgba(6, 165, 1, 0.2) 0px 20px 40px -3px;
 }
 
 /* "liver-color": "rgb(224 93 93)" */

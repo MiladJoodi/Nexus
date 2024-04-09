@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const ContactForm = () => {
   return (
     <div className="container mx-auto py-3 mt-12 sm:py-4">
@@ -14,7 +16,15 @@ const ContactForm = () => {
                     <textarea className="p-4 bg-gray-200 rounded-md text-lg outline-none" name="" id="" cols={30} rows={10}></textarea>
                 </div>
 
-                <button className="flex self-start send_btn">Send</button>
+                <button className="flex justify-center items-center gap-2 self-start send_btn">
+                    Send
+                    <Image
+                    src="/contact/send.svg"
+                    width={18}
+                    height={18}
+                    alt=""
+                    />
+                    </button>
 
 
         </div>
