@@ -12,7 +12,7 @@ const Footer = () => {
             alt="Picture of the author"
             className="w-[155px] h-[50px]"
           />
-          <div>
+          <div className="hidden lg:block">
             <p className="text-white">All Rights Reserved</p>
             <p className="text-white text-sm">
               Made with
