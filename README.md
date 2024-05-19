@@ -3,7 +3,7 @@
 <h4>In this project, I utilized Typescript, Next.js, Tailwind CSS, Embla Carousel, App Router and Shimmer for image loading 👌</h4>  
 
 [Demo](https://nexus-amber.vercel.app/).\
-Thank you sincerely. 🙏
+Thank you sincerely. 🙋🙏
 
 <a href="https://www.typescriptlang.org/">
     <img
