@@ -1,3 +1,5 @@
+<a href="https://wakatime.com/badge/user/aa8c2b32-33c3-43c1-887e-5ded05b7dcea/project/018ebd36-4d3b-489d-b5df-3394eb5c0269"><img src="https://wakatime.com/badge/user/aa8c2b32-33c3-43c1-887e-5ded05b7dcea/project/018ebd36-4d3b-489d-b5df-3394eb5c0269.svg" alt="wakatime"></a>
+
 # Nexus UI
 
 <h4>In this project, I utilized Typescript, Next.js, Tailwind CSS, Embla Carousel, App Router and Shimmer for image loading 👌</h4>  
